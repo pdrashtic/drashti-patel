@@ -1,0 +1,44 @@
+ *{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    width: 100%;
+    position: fixed;
+    display: flex;
+    background-color:wheat;
+    padding: 10px;
+}
+ul li{
+    padding: 10px 20px;
+    list-style-type: none;
+}
+ul li:hover{
+    background-color: blueviolet;
+}
+ul li:hover a{
+    color: white;
+}
+ul li a{
+    text-decoration: none;
+}
+.section{
+    height: 100vh;
+    width: 100%;
+    color: white;
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Home{
+    background-color: tomato;
+}
+.About{
+    background-color: aqua;
+    display: none;
+}
+.Concte{
+    background-color: chartreuse;
+    display: none;
+}
